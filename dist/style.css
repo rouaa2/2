@@ -1,5 +1,9 @@
 body {
-    background-color: #d4e8d4;
+    background-image: url('https://files.manuscdn.com/user_upload_by_module/session_file/310519663234782155/pPBbXYecNdxOmCeY.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,12 +13,13 @@ body {
 }
 
 .calculator {
-    background-color: #e8f5e8;
+    background-color: rgba(232, 245, 232, 0.95); /* 增加半透明效果，讓背景隱約透出 */
     padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 6px 0 #7cb342, 0 12px 24px rgba(0,0,0,0.2);
+    box-shadow: 0 6px 0 #7cb342, 0 12px 24px rgba(0,0,0,0.3);
     border: 5px solid #558b2f;
     width: 300px;
+    backdrop-filter: blur(5px); /* 增加磨砂玻璃效果 */
 }
 
 #display {
@@ -26,7 +31,7 @@ body {
     padding: 10px;
     border: 3px solid #7cb342;
     border-radius: 8px;
-    background-color: #f1f8f1;
+    background-color: rgba(241, 248, 241, 0.9);
     color: #33691e;
     box-sizing: border-box;
     outline: none;
